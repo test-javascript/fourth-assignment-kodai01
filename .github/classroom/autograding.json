@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "node",
+      "setup": "npm install",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "inputoutput",
+      "setup": "npm install",
+      "run": "npm test",
+      "input": "{id: \"id1\", name: \"name1\"}",
+      "output": "{id: \"id2\", name: \"name2\"}",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
